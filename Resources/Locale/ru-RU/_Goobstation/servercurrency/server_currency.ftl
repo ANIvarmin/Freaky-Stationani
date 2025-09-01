@@ -1,13 +1,3 @@
-# SPDX-FileCopyrightText: 2025 Aiden <28298836+Aidenkrz@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2025 Aiden <aiden@djkraz.com>
-# SPDX-FileCopyrightText: 2025 SX-7 <92227810+SX-7@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2025 gluesniffler <159397573+gluesniffler@users.noreply.github.com>
-#
-# SPDX-License-Identifier: AGPL-3.0-or-later
-
-server-currency-name-singular = Фрики Коин
-server-currency-name-plural = Фрики Коины
-
 server-currency-name-singular = Фрики Коин
 server-currency-name-plural = Фрики Коины
 
@@ -48,7 +38,7 @@ gs-balanceui-gift-player = Игрок
 gs-balanceui-gift-player-tooltip = Вставьте имя игрока, которому вы хотите отправить деньги.
 gs-balanceui-gift-value = Значение
 gs-balanceui-gift-value-tooltip = Сумма перевода
-gs-balanceui-shop-label = Магазин Фриков
+gs-balanceui-shop-label = Фрики магазин
 gs-balanceui-shop-empty = Нет в наличии!
 gs-balanceui-shop-buy = Купить
 gs-balanceui-shop-footer = ⚠ Напишите в ахелп для использования вашего токена. Только 1 использование в день.
