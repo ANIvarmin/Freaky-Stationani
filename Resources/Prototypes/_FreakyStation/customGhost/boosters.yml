@@ -7,9 +7,9 @@
 #  ghostDescription:  # описание если захочет
 
 - type: customGhost
-  id: DonLite-ghost
+  id: DonLiteGhost
   ckey: DonLite
-  sprite: /Textures/_FreakStation/Ghost/ghost_red.rsi
+  sprite: /Textures/_FreakStation/Ghost/GhostRed.rsi
   alpha: 0.8
   ghostName: DonLite
   ghostDescription: ку

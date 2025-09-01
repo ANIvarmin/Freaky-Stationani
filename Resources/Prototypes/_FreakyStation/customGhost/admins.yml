@@ -1,63 +1,55 @@
 - type: customGhost
-  id: Egorql-ghost
+  id: EgorqlGhost
   ckey: Egorql
-  sprite: /Textures/_FreakStation/Ghost/ghost_egorql.rsi
+  sprite: /Textures/_FreakStation/Ghost/GhostEgorql.rsi
   alpha: 0.8
   ghostName: Egorql
   ghostDescription: Блять че за хуйня
 
 - type: customGhost
-  id: Egorql-ghostTEST
-  ckey: localhost@Egorql
-  sprite: /Textures/_FreakStation/Ghost/ghost_egorql.rsi
-  alpha: 0.8
-  ghostName: Egorql
-  ghostDescription: Блять че за хуйня
-
-- type: customGhost
-  id: Casha-ghost
+  id: CashaGhost
   ckey: Casha
-  sprite: /Textures/_FreakStation/Ghost/ghost_casha.rsi
+  sprite: /Textures/_FreakStation/Ghost/GhostCasha.rsi
   alpha: 0.8
   ghostName: Casha
-  ghostDescription: ебануца
+  ghostDescription: Допиваю свой бокал и снова в жизни ищу толк
 
 - type: customGhost
-  id: kef1rOO-ghost
+  id: kef1rOOGhost
   ckey: kef1r00
-  sprite: /Textures/_FreakStation/Ghost/ghost_white.rsi
+  sprite: /Textures/_FreakStation/Ghost/GhostWhite.rsi
   alpha: 0.8
   ghostName: kef1r00
   ghostDescription: "я не придумал"
 
 - type: customGhost
-  id: ANIvarm-ghost
+  id: ANIvarmGhost
   ckey: ANIvarm
-  sprite: /Textures/_FreakStation/Ghost/ghost_kaiju.rsi
+  sprite: /Textures/_FreakStation/Ghost/GhostKaiju.rsi
   alpha: 0.8
   ghostName: ANIvarm
   ghostDescription: brr brr patapim
 
 - type: customGhost
-  id: Sherlook-ghost
+  id: SherlookGhost
   ckey: Sherlook
-  sprite: /Textures/_FreakStation/Ghost/ghost_faceless.rsi
+  sprite: /Textures/_FreakStation/Ghost/GhostFaceless.rsi
   alpha: 0.8
   ghostName: Sherlook
   ghostDescription: Моя сука пенивайз, понеслась
 
 - type: customGhost
-  id: Smesharik-ghost
+  id: SmesharikGhost
   ckey: Smesharik
-  sprite: /Textures/_FreakStation/Ghost/ghost_ice.rsi
+  sprite: /Textures/_FreakStation/Ghost/GhostIce.rsi
   alpha: 0.8
   ghostName: Smesharik
-  ghostDescription: brr brr patapim
+  ghostDescription: Крест на шею, пулю в лоб, петли красят потолок
 
 - type: customGhost
-  id: Homyakk-ghost
+  id: HomyakkGhost
   ckey: Homyakk
-  sprite: /Textures/_FreakStation/Ghost/ghost_star.rsi
+  sprite: /Textures/_FreakStation/Ghost/GhostStar.rsi
   alpha: 0.8
   ghostName: Homyakk
   ghostDescription: Долбоёб, нихуя не умеет
