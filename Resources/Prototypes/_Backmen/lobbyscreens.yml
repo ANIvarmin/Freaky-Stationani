@@ -1,0 +1,27 @@
+- type: lobbyBackground
+  id: CentcommLobbyScreen
+  background: /Textures/_Backmen/LobbyScreens/centcomm.rsi
+
+- type: lobbyBackground
+  id: CubeLobbyScreen
+  background: /Textures/_Backmen/LobbyScreens/cube.rsi
+
+- type: lobbyBackground
+  id: MilkywayLobbyScreen
+  background: /Textures/_Backmen/LobbyScreens/milkyway.rsi
+
+- type: lobbyBackground
+  id: RocketLobbyScreen
+  background: /Textures/_Backmen/LobbyScreens/rocket.rsi
+
+- type: lobbyBackground
+  id: SeaLobbyScreen
+  background: /Textures/_Backmen/LobbyScreens/sea.rsi
+
+- type: lobbyBackground
+  id: VangoghLobbyScreen
+  background: /Textures/_Backmen/LobbyScreens/vangogh.rsi
+
+- type: lobbyBackground
+  id: GachiLobbyScreen
+  background: /Textures/_Backmen/LobbyScreens/Gachi.rsi
