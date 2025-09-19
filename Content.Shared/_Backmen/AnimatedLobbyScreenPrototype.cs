@@ -12,6 +12,6 @@ public sealed partial class AnimatedLobbyScreenPrototype : IPrototype
     [IdDataField]
     public string ID { get; } = default!;
 
-    [DataField(required: true)]
-    public string Path = default!;
+    [DataField("path", required: true)]
+    public string Path { get; private set; } = default!;
 }

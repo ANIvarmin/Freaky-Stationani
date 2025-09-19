@@ -1,23 +1,21 @@
 using Robust.Shared.Random;
 using System.Linq;
 using Content.Shared._Backmen;
+using Content.Shared.GameTicking.Prototypes;
 
 namespace Content.Server.GameTicking;
 
 public sealed partial class GameTicker
 {
     [ViewVariables]
-    public string? LobbyBackground { get; private set; }
+    public LobbyBackgroundPrototype? LobbyBackground { get; private set; }
 
     [ViewVariables]
-    private List<string>? _lobbyBackgrounds;
+    private List<LobbyBackgroundPrototype>? _lobbyBackgrounds;
 
     private void InitializeLobbyBackground()
     {
-        _lobbyBackgrounds = _prototypeManager.EnumeratePrototypes<AnimatedLobbyScreenPrototype>()
-            .Select(x => x.Path)
-            .ToList();
-
+        _lobbyBackgrounds = _prototypeManager.EnumeratePrototypes<LobbyBackgroundPrototype>().ToList();
         RandomizeLobbyBackground();
     }
 
@@ -26,3 +24,5 @@ public sealed partial class GameTicker
         LobbyBackground = _lobbyBackgrounds!.Any() ? _robustRandom.Pick(_lobbyBackgrounds!) : null;
     }
 }
+
+// Mega vibe coding by Freaky
