@@ -333,7 +333,8 @@ namespace Content.Client.Lobby
         {
             if (_gameTicker.LobbyBackground != null)
             {
-                Lobby!.Background.Texture = _resourceCache.GetResource<TextureResource>(_gameTicker.LobbyBackground.Background);
+                var backgroundPath = _gameTicker.LobbyBackground.Background.ToString();
+                Lobby!.Background.SetRSI(_resourceCache.GetResource<RSIResource>(backgroundPath).RSI);
 
                 var lobbyBackground = _gameTicker.LobbyBackground;
 

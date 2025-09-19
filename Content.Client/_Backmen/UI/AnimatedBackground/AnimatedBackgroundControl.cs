@@ -1,5 +1,5 @@
 using System.Linq;
-using Content.Shared.GameTicking.Prototypes;
+using Content.Shared._Backmen;
 using Robust.Client.Graphics;
 using Robust.Client.ResourceManagement;
 using Robust.Client.UserInterface.Controls;
@@ -15,7 +15,7 @@ public sealed class AnimatedBackgroundControl : TextureRect
     [Dependency] private readonly IClyde _clyde = default!;
     [Dependency] private readonly IPrototypeManager _prototypeManager = default!;
 
-    private string _rsiPath = "/Textures/_Backmen/LobbyScreens/native.rsi";
+    private string _rsiPath = "/Textures/_White/Lobby/backgrounds/native.rsi";
     public RSI? _RSI;
     private const int States = 1;
 
@@ -102,10 +102,10 @@ public sealed class AnimatedBackgroundControl : TextureRect
 
     public void RandomizeBackground()
     {
-        var backgroundsProto = _prototypeManager.EnumeratePrototypes<LobbyBackgroundPrototype>().ToList();
+        var backgroundsProto = _prototypeManager.EnumeratePrototypes<AnimatedLobbyScreenPrototype>().ToList();
         var random = new Random();
         var index = random.Next(backgroundsProto.Count);
-        _rsiPath = $"/Textures/{backgroundsProto[index].Background}";
+        _rsiPath = $"/Textures/{backgroundsProto[index].Path}";
         InitializeStates();
     }
 }
