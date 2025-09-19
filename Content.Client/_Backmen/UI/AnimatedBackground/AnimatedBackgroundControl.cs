@@ -105,7 +105,7 @@ public sealed class AnimatedBackgroundControl : TextureRect
         var backgroundsProto = _prototypeManager.EnumeratePrototypes<LobbyBackgroundPrototype>().ToList();
         var random = new Random();
         var index = random.Next(backgroundsProto.Count);
-        _rsiPath = $"/Textures/{backgroundsProto[index].Path}";
+        _rsiPath = $"/Textures/{backgroundsProto[index].Background}";
         InitializeStates();
     }
 }

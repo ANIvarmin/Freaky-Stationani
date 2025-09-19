@@ -1,27 +1,41 @@
 - type: lobbyBackground
   id: CentcommLobbyScreen
   background: /Textures/_Backmen/LobbyScreens/centcomm.rsi
+  name: Cburn
+  artist: PubliclyExecutedPig
 
 - type: lobbyBackground
   id: CubeLobbyScreen
   background: /Textures/_Backmen/LobbyScreens/cube.rsi
+  name: Cburn
+  artist: PubliclyExecutedPig
 
 - type: lobbyBackground
   id: MilkywayLobbyScreen
   background: /Textures/_Backmen/LobbyScreens/milkyway.rsi
+  name: Cburn
+  artist: PubliclyExecutedPig
 
 - type: lobbyBackground
   id: RocketLobbyScreen
   background: /Textures/_Backmen/LobbyScreens/rocket.rsi
+  name: Cburn
+  artist: PubliclyExecutedPig
 
 - type: lobbyBackground
   id: SeaLobbyScreen
   background: /Textures/_Backmen/LobbyScreens/sea.rsi
+  name: Cburn
+  artist: PubliclyExecutedPig
 
 - type: lobbyBackground
   id: VangoghLobbyScreen
   background: /Textures/_Backmen/LobbyScreens/vangogh.rsi
+  name: Cburn
+  artist: PubliclyExecutedPig
 
 - type: lobbyBackground
   id: GachiLobbyScreen
   background: /Textures/_Backmen/LobbyScreens/Gachi.rsi
+  name: Cburn
+  artist: PubliclyExecutedPig

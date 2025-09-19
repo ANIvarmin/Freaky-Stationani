@@ -25,9 +25,6 @@ public sealed partial class LobbyBackgroundPrototype : IPrototype
     [IdDataField]
     public string ID { get; set; } = default!;
 
-    [DataField(required: true)]
-    public string Path = default!;
-
     /// <summary>
     /// The sprite to use as the background. This should ideally be 1920x1080.
     /// </summary>
