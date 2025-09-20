@@ -62,10 +62,10 @@
   id: invisible
   name: Duran Duran - INVISIBLE
   path:
-    path: /Audio/_FreakyStation/Jukebox/invisible.ogg # Freakystation
+    path: /Audio/_FreakStation/Jukebox/invisible.ogg # Freakystation
 
 - type: jukebox
   id: themanwhosoldtheworld
   name: Midge Ure - The Man Who Sold The World
   path:
-    path: /Audio/_FreakyStation/Jukebox/themanwhosoldtheworld.ogg # Freakystation
+    path: /Audio/_FreakStation/Jukebox/themanwhosoldtheworld.ogg # Freakystation
