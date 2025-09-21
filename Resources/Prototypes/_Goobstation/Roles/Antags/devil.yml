@@ -13,13 +13,13 @@
   guides: [ Devil ]
   requirements:
   - !type:OverallPlaytimeRequirement
-    time: 108000 # 30h
+    time: 1 # Freaky-RoleTime
   - !type:DepartmentTimeRequirement
     department: Command
-    time: 18000 # 5 hours
+    time: 1 # Freaky-RoleTime
   - !type:RoleTimeRequirement
     role: JobLawyer
-    time: 3600 # 1 Hour
+    time: 1 # Freaky-RoleTime
 
 - type: startingGear
   id: DevilStartingGear

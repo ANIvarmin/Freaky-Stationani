@@ -101,10 +101,10 @@
   objective: roles-antag-nuclear-operative-objective
   requirements:
   - !type:OverallPlaytimeRequirement
-    time: 36000 # 10 hours - Goobstation
+    time: 1 
   - !type:DepartmentTimeRequirement
     department: Security
-    time: 36000 # 10h Goobstation
+    time: 1
   guides: [ NuclearOperatives ]
 
 - type: antag
@@ -115,13 +115,13 @@
   objective: roles-antag-nuclear-operative-agent-objective
   requirements:
   - !type:OverallPlaytimeRequirement
-    time: 90000 # 25 hours - Goobstation
+    time: 1
   - !type:DepartmentTimeRequirement
     department: Security
-    time: 36000 # 10h Goobstation
+    time: 1
   - !type:RoleTimeRequirement
     role: JobChemist
-    time: 18000 # 5h Goobstation
+    time: 1
   guides: [ NuclearOperatives ]
 
 - type: antag
@@ -132,13 +132,13 @@
   objective: roles-antag-nuclear-operative-commander-objective
   requirements:
   - !type:OverallPlaytimeRequirement
-    time: 90000 # 25 hours - Goobstation
+    time: 1
   - !type:DepartmentTimeRequirement
     department: Security
-    time: 36000 # 10h Goobstation
+    time: 1
   - !type:DepartmentTimeRequirement
     department: Command
-    time: 18000 # 5h Goobstation
+    time: 1
   # should be changed to nukie playtime when thats tracked (wyci)
   guides: [ NuclearOperatives ]
 
