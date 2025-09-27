@@ -13,3 +13,12 @@
   alpha: 0.8
   ghostName: DonLite
   ghostDescription: ку
+  
+  
+- type: customGhost
+  id: ArabGhost
+  ckey: Arab2004
+  sprite: /Textures/_FreakStation/Ghost/ghost_niko.rsi
+  alpha: 0.8
+  ghostName: Arab2004
+  ghostDescription: Бустер
